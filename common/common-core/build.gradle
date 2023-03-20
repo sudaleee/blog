@@ -1,0 +1,8 @@
+description = "common-core"
+
+bootJar {
+    enabled = false
+}
+jar {
+    enabled = true
+}

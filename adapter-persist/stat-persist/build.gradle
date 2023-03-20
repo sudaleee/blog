@@ -1,0 +1,13 @@
+description = "stat-persist"
+
+bootJar {
+    enabled = false
+}
+jar {
+    enabled = true
+}
+
+dependencies {
+    implementation project(':common:common-core')
+    implementation 'com.h2database:h2'
+}

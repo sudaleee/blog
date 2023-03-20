@@ -1,0 +1,8 @@
+description = "external"
+
+bootJar {
+    enabled = false
+}
+jar {
+    enabled = true
+}

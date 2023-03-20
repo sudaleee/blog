@@ -1,0 +1,15 @@
+description = "kakao-api"
+
+bootJar {
+    enabled = false
+}
+jar {
+    enabled = true
+}
+
+dependencies {
+    implementation project(':domain:blog-search')
+    implementation project(':common:common-core')
+
+    implementation("io.github.openfeign:feign-core:11.3")
+}

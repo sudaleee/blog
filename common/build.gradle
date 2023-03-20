@@ -1,0 +1,8 @@
+description = "persist"
+
+bootJar {
+    enabled = false
+}
+jar {
+    enabled = true
+}
