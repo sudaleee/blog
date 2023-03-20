@@ -3,7 +3,7 @@ description = "api"
 dependencies {
     implementation project(':common:common-core')
 
-    implementation project(':domain:blog-search')
+    implementation project(':application:blog-search')
     implementation project(':external:kakao-api')
     implementation project(':external:naver-api')
 

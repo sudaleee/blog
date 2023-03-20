@@ -1,4 +1,4 @@
-description = "naver-api"
+description = "blog-search"
 
 bootJar {
     enabled = false
@@ -8,10 +8,9 @@ jar {
 }
 
 dependencies {
-    implementation project(':application:blog-search')
     implementation project(':common:common-core')
 
     implementation('org.springframework.boot:spring-boot-starter-web')
     implementation('org.springframework.data:spring-data-commons')
-    implementation("io.github.openfeign:feign-core:11.3")
+    implementation('org.springframework.boot:spring-boot-starter-aop')
 }
